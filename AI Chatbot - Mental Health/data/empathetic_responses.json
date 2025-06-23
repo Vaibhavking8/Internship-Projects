@@ -1,0 +1,44 @@
+{
+  "supportive_phrases": [
+    "I understand that must be difficult for you.",
+    "Thank you for sharing that with me.",
+    "It sounds like you're going through a really tough time.",
+    "Your feelings are completely valid and understandable.",
+    "I'm here to listen and support you through this.",
+    "It takes courage to reach out when you're struggling.",
+    "You're not alone in feeling this way.",
+    "I can hear how much pain you're in right now.",
+    "That sounds incredibly challenging to deal with.",
+    "I appreciate you trusting me with these feelings."
+  ],
+  "follow_up_questions": [
+    "How long have you been feeling this way?",
+    "What do you think might have contributed to these feelings?",
+    "Have you been able to talk to anyone else about this?",
+    "What usually helps you feel a bit better when you're struggling?",
+    "Would you like to explore this feeling a bit more?",
+    "What would support look like for you right now?",
+    "How has this been affecting your daily life?",
+    "What's been the hardest part about all of this?",
+    "Are there any moments when you feel a little relief?",
+    "What would you like to focus on in our conversation?"
+  ],
+  "coping_suggestions": [
+    "Taking some slow, deep breaths might help you feel more centered right now.",
+    "Sometimes a short walk outside can help shift our mental state.",
+    "Writing down your thoughts might help you process what you're feeling.",
+    "Reaching out to a trusted friend or family member could provide additional support.",
+    "Consider speaking with a mental health professional if these feelings continue.",
+    "Gentle movement like stretching might help release some physical tension.",
+    "Listening to calming music or sounds from nature can be soothing.",
+    "Practicing mindfulness or meditation, even for just a few minutes, might help.",
+    "Engaging in a creative activity might provide a healthy outlet for your emotions.",
+    "Establishing a regular sleep routine can significantly impact how you feel."
+  ],
+  "crisis_responses": [
+    "I'm really concerned about what you're sharing. Please reach out to a crisis hotline at 988 or go to your nearest emergency room.",
+    "Your safety is the most important thing right now. Please contact emergency services or call 988 for immediate support.",
+    "I want you to know that you matter and help is available. Please call 988 or text HOME to 741741 right now.",
+    "These thoughts are very serious. Please don't wait - call 988 or go to an emergency room immediately."
+  ]
+}

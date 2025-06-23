@@ -1,0 +1,12 @@
+streamlit
+flask
+transformers
+torch
+nltk
+pandas
+numpy
+scikit-learn
+python-dotenv
+gunicorn
+datasets
+accelerate
