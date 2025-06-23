@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: mental-health-api
+    env: python
+    buildCommand: pip install -r "AI Chatbot - Mental Health/requirements.txt"
+    startCommand: python "AI Chatbot - Mental Health/api/api.py"
+    envVars:
+      - key: FLASK_ENV
+        value: production
+
+  - type: web
+    name: mental-health-chatbot-interface
+    env: python
+    buildCommand: pip install -r "AI Chatbot - Mental Health/requirements.txt"
+    startCommand: streamlit run "AI Chatbot - Mental Health/app.py" --server.port 8501 --server.enableCORS false
+    envVars:
+      - key: STREAMLIT_SERVER_PORT
+        value: 8501
