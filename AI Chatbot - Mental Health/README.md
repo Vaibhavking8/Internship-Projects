@@ -49,7 +49,7 @@ A compassionate AI-powered chatbot designed to provide emotional support and men
 
 1. **Start the Flask server**
    ```bash
-   python app.py
+   python api/api.py
    ```
 
 2. **Access the application**
@@ -123,36 +123,6 @@ self.offensive_words = {
 self.mental_health_keywords = {
     "anxiety", "depression", "custom", "keywords"
 }
-```
-
-## 🌐 Deployment
-
-### Render Deployment
-
-1. **Connect your repository to Render**
-2. **Set build command**: `pip install -r requirements.txt`
-3. **Set start command**: `gunicorn app:app`
-4. **Add environment variables** in Render dashboard
-
-### Replit Deployment
-
-1. **Import repository to Replit**
-2. **Set run command**: `python app.py`
-3. **Install dependencies** automatically handled
-
-### Docker Deployment
-
-```dockerfile
-FROM python:3.9-slim
-
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-
-COPY . .
-EXPOSE 5000
-
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
 ```
 
 ## 🔒 Safety Features
